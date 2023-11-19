@@ -5,22 +5,22 @@ A simple web-based application that is suitable for hotel websites includes sect
 ## Screenshots
 
 ![Screenshot 2](demo_photos/home_page.png)
-*Movie Recommender application*
+*Home section*
 
 ![Screenshot 1](demo_photos/facilities_page.png)
-*Searching movies*
+*Facilities section*
 
 ![Screenshot 1](demo_photos/gallery_page.png)
-*Searching movies*
+*Gallery section*
 
 ![Screenshot 2](demo_photos/contact_page.png)
-*Movie Recommender application*
+*Contact section*
 
 ![Screenshot 1](demo_photos/din.png)
-*Searching movies*
+*Facilities page- dining section*
 
 ![Screenshot 1](demo_photos/ent.png)
-*Searching movies*
+*Facilities page- entertaining section*
 
 ## Front-end development
 
