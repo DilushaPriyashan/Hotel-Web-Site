@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Box Icons -->
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+
+    <!-- Css & Fontawesome -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles_facility_page.css">
+    <link rel="stylesheet" href="other_styles/styles_contact.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Js Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <!-- Code for Daterangepicker -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <title>Royal Inn Kandy</title>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header class="mobile-header">
+            <div>
+                <div id="mobile-menu-icon">
+                    <div class="hamburger-icon">
+                        <input type="checkbox" class="toggle" onclick="hamMenu()">
+                        <div></div>
+                    </div>
+                </div>
+
+                <div id="logo">
+                    <a href="index.html"><img src="images/my/logo.jpg" alt="logo" width="115px" height="110px"></a>
+                </div>
+
+                <nav id="main-menu-wrapper" class="mobile-menu">
+                    <ul class="main-menu">
+                        <li class="active"><a href="#">Facilities</a></li>
+                        <li><a href="index.html#facilities">go Back </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <!----------------------------- Accomedations section------------------------------------------>
+
+        <section id="acc">
+            <h1 class="sec-title">accomadations</h1>
+            <div class="acc-cont">
+                <div class="item-1" onmouseover="showPopup('popup1')" onmouseout="hidePopup('popup1')">
+                    <div class="acc-det-title">Bedroom</div>
+                    <div class="popup" id="popup1">
+                        <div class="acc-det-text">
+                            Indulge in opulent comfort and style within our luxurious bedrooms. Each room is
+                            meticulously
+                            designed to provide a serene retreat, featuring lavish furnishings, premium bedding, and
+                            sophisticated decor. Enjoy the perfect blend of modern amenities and classic elegance,
+                            ensuring
+                            a restful night's sleep in an ambiance of refined taste.
+                        </div>
+
+                        <div class="acc-det-l">Bed Configurations</div>
+                        <div class="acc-det-li">King-size Beds with Premium Linens</div>
+                        <div class="acc-det-li">Queen-size Beds</div>
+                        <div class="acc-det-li">Twin Beds for Flexibility</div>
+
+                        <div class="acc-det-l">View</div>
+                        <div class="acc-det-li">Panoramic City Views</div>
+                        <div class="acc-det-li">Garden Views</div>
+                        <div class="acc-det-li">Mountain Views</div>
+                    </div>
+                </div>
+
+                <div class="item-2" onmouseover="showPopup('popup2')" onmouseout="hidePopup('popup2')">
+                    <div class="acc-det-title">Living Area</div>
+                    <div class="popup" id="popup2">
+                        <div class="acc-det-text">
+                            Experience the epitome of luxury in our exquisitely appointed living areas. Whether you're
+                            unwinding after a day of exploration or entertaining guests, our spacious and tastefully
+                            decorated living spaces offer a perfect balance of comfort and sophistication. Sink into plush
+                            seating, surrounded by curated artwork and upscale design, creating an inviting atmosphere for
+                            relaxation and socializing.
+                        </div>
+    
+                        <div class="acc-det-l">Entertainment</div>
+                        <div class="acc-det-li">Wifi facilities</div>
+                        <div class="acc-det-li">Large-Screen Smart TVs</div>
+                        <div class="acc-det-li">High-End Audio Systems</div>
+    
+                        <div class="acc-det-l">Additional Features</div>
+                        <div class="acc-det-li">Private Balconies</div>
+                        <div class="acc-det-li">Designer Coffee Tables</div>
+
+                    </div>   
+
+                </div>
+
+                <div class="item-3" onmouseover="showPopup('popup3')" onmouseout="hidePopup('popup3')">
+                    <div class="acc-det-title">Bathrooms</div>
+                    <div class="popup" id="popup3">
+                        <div class="acc-det-text">
+                            Step into a sanctuary of tranquility with our sumptuous bathrooms. Immerse yourself in the
+                            ultimate spa-like experience, featuring marble finishes, designer fixtures, and indulgent
+                            amenities. From rejuvenating rain showers to deep-soaking tubs, our bathrooms are crafted to
+                            elevate your daily rituals, ensuring a lavish and pampering escape.
+                        </div>
+    
+                        <div class="acc-det-l"> Fixtures</div>
+                        <div class="acc-det-li">Modern bathtubs</div>
+                        <div class="acc-det-li">Hot/cold water features</div>
+                        <div class="acc-det-li">Heated Towel Racks</div>
+    
+                        <div class="acc-det-l">Additional Featues</div>
+                        <div class="acc-det-li">High-End Bath Products</div>
+                        <div class="acc-det-li">Adjustable Lighting</div>
+
+                    </div>
+                    
+                </div>
+                <div class="item-4" onmouseover="showPopup('popup4')" onmouseout="hidePopup('popup4')">
+                    <div class="acc-det-title">Kitchen</div>
+                    <div class="popup" id="popup4">
+                        <div class="acc-det-text">
+                            Unleash your culinary creativity in our state-of-the-art kitchens. Equipped with top-of-the-line
+                            appliances and gourmet essentials, our kitchens provide the perfect space for both casual and
+                            fine dining experiences. Whether you're a seasoned chef or prefer the services of a private
+                            chef, our kitchens cater to your every culinary desire, creating a home-away-from-home
+                            experience in the lap of luxury.
+                        </div>
+    
+                        <div class="acc-det-l">Appliances</div>
+                        <div class="acc-det-li">Top-of-the-Line Refrigerators</div>
+                        <div class="acc-det-li">Gourmet Gas Stoves</div>
+                        <div class="acc-det-li">Built-in Ovens and Microwaves</div>
+                        <div class="acc-det-li">Dishwashers with Quiet Operation</div>
+    
+                        <div class="acc-det-l">Dining Area</div>
+                        <div class="acc-det-li">Formal Dining Tables </div>
+                        <div class="acc-det-li">Nespresso Machines</div>
+
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------ Dining section----------------------------------------->
+
+        <section id="din">
+            <h1 class="sec-title">Dining</h1>
+
+            <div class="din-cont">
+                <div class="din-item-1" onmouseover="showPopup('din-popup1')" onmouseout="hidePopup('din-popup1')" style="background-image: url(images/facilities/dining/1.jpg);">
+                    <div class="acc-det-title">Dine In Style</div>
+                    <div class="popup" id="din-popup1">
+                        <div class="acc-det-text">
+                            Savor a diverse array of culinary masterpieces meticulously crafted by our world-class chefs. From exquisite international cuisines to local delicacies prepared with a modern twist, our menu is a celebration of taste and refinement. 
+                        </div>
+
+                        <div class="acc-det-l">Breakfast Elegance</div>
+                        <div class="acc-det-li">Awaken your senses with a lavish breakfast spread that includes a delightful selection of fresh fruits, pastries, and international breakfast classics. Choose to dine al fresco or in the elegant ambience of our dining hall.</div>
+
+                        <div class="acc-det-l">Lunchtime Indulgence</div>
+                        <div class="acc-det-li">Our lunch offerings feature a blend of light and flavorful dishes, perfect for a midday reprieve. Whether you opt for a leisurely three-course meal or a quick bite, our culinary team ensures a symphony of tastes and textures.</div>
+
+                        <div class="acc-det-l">Evening Tea Ritual</div>
+                        <div class="acc-det-li">As the day transitions into evening, join us for a refined session of afternoon tea. Indulge in an assortment of artisanal teas accompanied by an array of delicate pastries, finger sandwiches, and decadent sweets. The soothing atmosphere provides the perfect backdrop for relaxation and conversation.</div>
+
+                        <div class="acc-det-l">Dinner Grandeur</div>
+                        <div class="acc-det-li">As night falls, our dining experience transforms into a grand affair. Immerse yourself in the ambiance of our sophisticated dining spaces as you savor the finest ingredients expertly prepared to create unforgettable dishes. From intimate dinners to celebratory feasts, our dinner offerings cater to every occasion.</div>
+                        
+                    </div>
+                </div>
+
+                <div class="din-item-2" onmouseover="showPopup('din-popup2')" onmouseout="hidePopup('din-popup2')" style="background-image: url(images/facilities/dining/2.jpg);">
+                    <div class="acc-det-title">Liquors Lounge</div>
+                    <div class="popup" id="din-popup2">
+                        <div class="acc-det-text">
+                            Our Liquors Lounge is a haven for connoisseurs and those seeking a refined retreat. Step into a world where the clink of crystal glasses mingles with the soft hum of conversation, creating an atmosphere that exudes sophistication.
+                        </div>
+    
+                        <div class="acc-det-l">Exquisite Spirits</div>
+                        <div class="acc-det-li">Indulge in a curated selection of the world's finest liquors, carefully chosen to satisfy the most discerning palates. From rare single malt whiskies and aged cognacs to artisanal gins and premium vodkas, our collection is a testament to the artistry and craftsmanship of the world's top distilleries.</div>
+                       
+    
+                        <div class="acc-det-l">Crafted Cocktails</div>
+                        <div class="acc-det-li">Our expert mixologists are artisans in their own right, ready to craft bespoke cocktails tailored to your preferences. Whether you prefer a classic martini, an innovative signature creation, or a refreshing mocktail, each drink is a masterpiece designed to elevate your experience.</div>
+
+                        <div class="acc-det-l">Special Occasions</div>
+                        <div class="acc-det-li">The Liquors Lounge at Royal Inn is not just a place; it's an experience. Elevate your special occasions by reserving a private section of the lounge for intimate celebrations, corporate gatherings, or exclusive events.</div>
+
+                        <div class="acc-det-l">Liquor Tasting Events</div>
+                        <div class="acc-det-li">For those seeking a deeper appreciation of spirits, we host exclusive liquor tasting events. Engage your senses as our experts guide you through tastings of rare and premium liquors, providing insights into their origins, flavor profiles, and the art of pairing.</div>
+                        
+                    </div>   
+
+                </div>
+            </div>
+
+        </section>
+
+        <!------------------------------ Gym section----------------------------------------->
+
+        <section id="gym">
+            <h1 class="sec-title">gymnasiums</h1>
+            <div class="din-cont">
+                <div class="din-item-1" onmouseover="showPopup('gym-popup1')" onmouseout="hidePopup('gym-popup1')" style="background-image: url(images/facilities/gymnasium/1.jpg);">
+                    <div class="acc-det-title">EnergizeX Gym</div>
+                    <div class="popup" id="gym-popup1">
+                        <div class="acc-det-l">Features</div>
+                        <div class="acc-det-li">Gymnasium 1 is a modern fitness haven within our luxury hotel, offering a cutting-edge space for guests seeking an invigorating workout experience. The facility boasts state-of-the-art cardiovascular and strength training equipment, creating an ambiance that encourages motivation and well-being.</div>
+                    
+
+                        <div class="acc-det-l">Equipment</div>
+                        <div class="acc-det-li">Equipped with the latest Technogym machines, Gymnasium 1 provides a comprehensive fitness arsenal. From advanced treadmills with personalized training programs to ergonomic weightlifting stations, guests can tailor their workouts to meet their fitness goals.</div>
+
+                        <div class="acc-det-l">Who Can Enjoy</div>
+                        <div class="acc-det-li">Gymnasium 1 is open to all hotel guests, ensuring that both fitness enthusiasts and beginners have access to a welcoming environment. Additionally, private sessions can be arranged for those seeking personalized guidance.</div>
+
+                        <div class="acc-det-l">Sessions</div>
+                        <div class="acc-det-li">Our gymnasium hosts daily fitness sessions led by certified trainers. Whether guests prefer high-intensity interval training, yoga, or personalized one-on-one sessions, there's a diverse array of classes to suit every fitness level and preference.</div>
+                        
+                    </div>
+                </div>
+
+                <div class="din-item-2" onmouseover="showPopup('gym-popup2')" onmouseout="hidePopup('gym-popup2')"  style="background-image: url(images/facilities/gymnasium/2.jpg);">
+                    <div class="acc-det-title">Revitalize Gymnasium</div>
+                    <div class="popup" id="gym-popup2">
+    
+    
+                        <div class="acc-det-l">Features</div>
+                        <div class="acc-det-li">Gymnasium 2 is a tranquil wellness retreat nestled within our luxury hotel, providing a serene environment for guests to focus on holistic well-being. The facility emphasizes a harmonious blend of physical fitness and mental rejuvenation.</div>
+                    
+
+                        <div class="acc-det-l">Equipment</div>
+                        <div class="acc-det-li">In Gymnasium 2, guests will find a selection of low-impact exercise machines, meditation corners, and stretching zones. This gymnasium is designed for those who appreciate a gentler approach to fitness, promoting balance and relaxation.</div>
+
+                        <div class="acc-det-l">Who Can Enjoy</div>
+                        <div class="acc-det-li">Gymnasium 2 is open to all hotel guests seeking a serene fitness experience. Whether you're a seasoned yogi or a beginner looking to explore mindfulness, Gymnasium 2 provides a welcoming space for individuals of all fitness backgrounds.</div>
+
+                        <div class="acc-det-l">Sessions</div>
+                        <div class="acc-det-li">Daily wellness sessions, including guided meditation and gentle yoga, are offered in Gymnasium 2. Guests can unwind and recharge both body and mind, with expert instructors leading sessions that cater to various levels of experience.</div>
+                        
+                    </div>   
+                </div>
+            </div>
+
+        </section>
+
+        <!------------------------------ Swimmingpool section----------------------------------------->
+
+        <section id="swm">
+            <h1 class="sec-title">swimmingpools</h1>
+            <div class="din-cont">
+                <div class="din-item-1" onmouseover="showPopup('swm-popup1')" onmouseout="hidePopup('swm-popup1')" style="background-image: url(images/facilities/swimmingpool/1.jpg);">
+                    <div class="acc-det-title">Sunset Serenity: Outdoor Pool Escape</div>
+                    <div class="popup" id="swm-popup1">
+
+                        <div class="acc-det-l">Features</div>
+                        <div class="acc-det-li">Our outdoor swimming pool is a lavish oasis nestled amidst the stunning surroundings of our hotel. It boasts crystal-clear water and a spacious design, providing an idyllic setting for relaxation and recreation. The pool is surrounded by lush greenery and luxurious lounge areas, creating a serene atmosphere for guests to unwind.</div>
+                    
+
+                        <div class="acc-det-l">Equipment</div>
+                        <div class="acc-det-li">Equipped with premium poolside loungers, parasols, and attentive staff, our outdoor swimming pool ensures that your every need is met. Towels and refreshing beverages are readily available, enhancing your overall poolside experience.</div>
+
+                        <div class="acc-det-l">Who Can Enjoy</div>
+                        <div class="acc-det-li">The outdoor swimming pool is designed for all guests seeking a blend of luxury and tranquility. Whether you're a solo traveler, a couple on a romantic getaway, or a family looking for leisure, our outdoor pool caters to all.</div>
+
+                        <div class="acc-det-l">Sessions</div>
+                        <div class="acc-det-li">Open from dawn to dusk, the outdoor swimming pool offers guests the opportunity to bask in the sun during the day or enjoy a moonlit swim in the evening. Our poolside ambiance is perfect for daytime relaxation and transforms into a sophisticated setting as the sun sets.</div>
+                        
+                    </div>
+                </div>
+
+                <div class="din-item-2" onmouseover="showPopup('swm-popup2')" onmouseout="hidePopup('swm-popup2')" style="background-image: url(images/facilities/swimmingpool/2.jpg);">
+                    <div class="acc-det-title">Aqua Haven: Indoor Oasis</div>
+                    <div class="popup" id="swm-popup2">
+    
+                        <div class="acc-det-l">Features</div>
+                        <div class="acc-det-li">Step into opulence with our indoor swimming pool, a haven of refinement and comfort. The indoor pool area is designed with elegance in mind, featuring controlled lighting and a climate-controlled environment for a delightful swim year-round.</div>
+                    
+
+                        <div class="acc-det-l">Equipment</div>
+                        <div class="acc-det-li">Complete with state-of-the-art fitness and aquatic equipment, the indoor swimming pool offers a unique blend of wellness and leisure. Guests can make use of aquatic fitness gear, and the poolside is equipped with plush towels, creating a seamless experience of indulgence.</div>
+
+                        <div class="acc-det-l">Who Can Enjoy</div>
+                        <div class="acc-det-li">The indoor swimming pool is a haven for guests seeking a more private and exclusive aquatic experience. It is ideal for those who prefer a controlled climate and desire a more intimate setting.</div>
+
+                        <div class="acc-det-l">Sessions</div>
+                        <div class="acc-det-li">Available throughout the day, the indoor swimming pool is perfect for guests looking to maintain their fitness routine with morning laps or those wanting a tranquil escape in the evening. The subdued lighting creates a serene ambiance for a relaxing swim at any time.</div>
+                        
+                    </div>   
+                </div>
+            </div>
+
+        </section>
+
+        <!------------------------------ Entertaining section----------------------------------------->
+
+        <section id="ent">
+            <h1 class="sec-title">entertaining</h1>
+            <div class="acc-cont">
+                <div class="item-1" onmouseover="showPopup('ent-popup1')" onmouseout="hidePopup('ent-popup1')" style="background-image: url(images/facilities/entertaining/1.jpg);">
+                    <div class="acc-det-title">Outdoor Sports Paradise</div>
+                    <div class="popup" id="ent-popup1">
+
+                        <div class="acc-det-l">Sports Available</div>
+                        <div class="acc-det-li">->Cricket: Immerse yourself in the gentleman's game on our well-maintained cricket pitch. Whether you're a seasoned player or trying your hand for the first time, our facilities cater to all skill levels.</div>
+                        <div class="acc-det-li">->Volleyball: Feel the sand beneath your feet as you engage in spirited volleyball matches in our dedicated outdoor court. Enjoy the camaraderie and competition against the backdrop of our luxurious surroundings.</div>
+                        <div class="acc-det-li">->Tennis: Perfect your serve and volley on our top-notch tennis courts. Surrounded by lush greenery, these courts provide an ideal setting for both casual and competitive tennis matches.</div>
+
+                        <div class="acc-det-l">Complimentary Equipment</div>
+                        <div class="acc-det-li">To ensure an exceptional outdoor sports experience, we provide complimentary equipment for cricket, volleyball, and tennis. From cricket bats to tennis rackets, we have everything you need to make the most of your time in the open air.</div>
+                        
+                    </div>
+                </div>
+
+                <div class="item-2" onmouseover="showPopup('ent-popup2')" onmouseout="hidePopup('ent-popup2')" style="background-image: url(images/facilities/entertaining/5.jpg);">
+                    <div class="acc-det-title">Weekly Extravaganza</div>
+                    <div class="popup" id="ent-popup2">
+                        <div class="acc-det-text">
+                            Join us every weekend as we curate an immersive musical experience, featuring renowned DJs who know just how to set the perfect vibe for your Saturday and Sunday nights.
+                        </div>
+    
+                        <div class="acc-det-l">Open Mini Bar</div>
+                        <div class="acc-det-li">Complementing the beats, our mini bar opens its doors, inviting you to savor a selection of premium beverages. Indulge in handcrafted cocktails, fine wines, and a range of spirits while you groove to the music.</div>
+    
+                        <div class="acc-det-l">For All Guests</div>
+                        <div class="acc-det-li">At our luxury hotel, the Evening DJ Parties are not just an event; they're a celebration for every guest. Whether you're a solo traveler, a couple seeking a romantic evening, or a group of friends ready to make memories, everyone is welcome to join the festivities.</div>
+                      
+                    </div>   
+
+                </div>
+
+                <div class="item-3" onmouseover="showPopup('ent-popup3')" onmouseout="hidePopup('ent-popup3')" style="background-image: url(images/facilities/entertaining/3.jpg);">
+                    <div class="acc-det-title">Indoor Sports Haven</div>
+                    <div class="popup" id="ent-popup3">
+
+                        <div class="acc-det-l">Sports Available</div>
+                        <div class="acc-det-li">->Badminton:Engage in exhilarating badminton matches within our dedicated indoor court.</div>
+                        <div class="acc-det-li">->Pool: Perfect your skills on our high-quality pool tables, surrounded by an ambiance of sophistication</div>
+                        <div class="acc-det-li">->Table Tennis: Experience the fast-paced excitement of table tennis in a setting designed for both casual and competitive play.</div>
+                        <div class="acc-det-li">->Carrom: Rediscover the joy of this classic game, with well-maintained carrom boards available for your enjoyment.</div>
+
+
+                        <div class="acc-det-l">Complimentary Equipment</div>
+                        <div class="acc-det-li">To enhance your experience, we provide all the necessary equipment for each sport. From high-quality badminton rackets to professional-grade pool cues, we ensure that you have access to the best tools to make your indoor sports experience exceptional.</div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="item-4" onmouseover="showPopup('ent-popup4')" onmouseout="hidePopup('ent-popup4')" style="background-image: url(images/facilities/entertaining/2.jpg);">
+                    <div class="acc-det-title">Thrilling River Adventure</div>
+                    <div class="popup" id="ent-popup4">
+                        <div class="acc-det-text">
+                            Immerse yourself in the heart-pounding excitement of water riding on the majestic Samanala River. Glide through the river's pristine waters, surrounded by lush landscapes and breathtaking scenery, as you embrace the true spirit of exploration.
+                        </div>
+    
+                        <div class="acc-det-l">Safety at its Finest</div>
+                        <div class="acc-det-li">Your safety is our top priority. Our water riding on Samanala River activity is designed with meticulous attention to detail and adheres to the highest safety standards. Our expert guides and state-of-the-art equipment ensure a secure and worry-free experience.</div>
+                        
+    
+                        <div class="acc-det-l">An Inclusive Escape</div>
+                        <div class="acc-det-li">Whether you're a thrill-seeking enthusiast or a first-time explorer, our water riding on Samanala River is tailored to suit all levels of experience. Our professional guides provide comprehensive instructions, making this activity enjoyable and inclusive for all our guests. Join us for an unforgettable adventure that caters to the diverse interests and abilities of every customer.</div>
+
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------ Services section----------------------------------------->
+
+        <section id="ser">
+            <h1 class="sec-title">services</h1>
+            <div class="din-cont" style="padding-bottom: 10px;">
+                <div class="din-item-1" onmouseover="showPopup('ser-popup1')" onmouseout="hidePopup('ser-popup1')" style="background-image: url(images/facilities/services/1.jpg);">
+                    <div class="acc-det-title">Our Services</div>
+                    <div class="popup" id="ser-popup1">
+                        <div class="acc-det-l"> Transport Facilities from Airport</div>
+                        <div class="acc-det-li">Upon your arrival, experience the epitome of convenience as our dedicated team ensures a seamless transition from the airport to our luxurious hotel. Enjoy a chauffeur-driven journey, where comfort and style meet to set the tone for an exceptional stay.</div>
+                        
+    
+                        <div class="acc-det-l">Excellent Service in Hotel Events</div>
+                        <div class="acc-det-li">Immerse yourself in the world of luxury with our unparalleled hotel event services. Whether you're hosting a corporate gathering, a romantic celebration, or any special occasion, our team is committed to delivering excellence. From meticulous event planning to impeccable execution, every detail is handled with care to create unforgettable moments.</div>
+
+                    </div>
+                </div>
+
+                <div class="din-item-2" onmouseover="showPopup('ser-popup2')" onmouseout="hidePopup('ser-popup2')" style="background-image: url(images/facilities/services/2.jpg);">
+                    <div class="acc-det-title">Tourism Packages</div>
+                    <div class="popup" id="ser-popup2">
+                        <div class="acc-det-text">
+                            Explore the enchanting beauty of Sri Lanka with our curated tourism package, designed to take you on a journey through some of the most captivating destinations:
+                        </div>
+    
+                        <div class="acc-det-l">Temple of Tooth</div>
+                        <div class="acc-det-li">Venture into the heart of Kandy to witness the revered Temple of the Tooth, a UNESCO World Heritage site. Immerse yourself in the rich cultural heritage as you explore the temple, home to the sacred tooth relic of Buddha.</div>
+    
+                        <div class="acc-det-l">Riveston Retreat</div>
+                        <div class="acc-det-li">Experience tranquility at Riveston, a picturesque retreat nestled amidst lush greenery. Discover the perfect blend of nature and luxury as you unwind in this idyllic setting, offering a sanctuary for relaxation and rejuvenation.</div>
+                        
+                        <div class="acc-det-l">Ambuluwawa Tower</div>
+                        <div class="acc-det-li">Reach new heights at Ambuluwawa Tower, an architectural marvel surrounded by panoramic views. Ascend to the top and marvel at the breathtaking landscapes that unfold, providing a spectacular vista of Sri Lanka's diverse terrain.</div>
+                        
+                        <div class="acc-det-l">Many Other Attractive Places</div>
+                        <div class="acc-det-li">Our tourism package goes beyond the expected, introducing you to a myriad of other captivating attractions. From historical landmarks to natural wonders, each destination is carefully selected to ensure a well-rounded and unforgettable experience.</div>
+                        
+                    </div>   
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<!------------------------------ Footer----------------------------------------->
+
+<footer class="footer" >
+    <div class="footer-c">
+        <div class="footer-image">
+            <img class="R-image" src="images/my/R.png" alt="R">
+        </div>
+        <div class="footer-container">
+            <div class="contact-details">
+                <div class="footer-topic">Contact Us</div>
+                <p>Email: RoyalInn@gmail.com</p>
+                <p>Hotline: +947 456 789</p>
+                <p>Address: 23 / 123 Street, Kandy, Sri Lanka</p>
+            </div>
+            <div class="social-media">
+                <div class="footer-topic">Follow Us</div>
+                <p><a class="sm" href="#contact" rel="noopener noreferrer">Facebook <i
+                            class='bx bxl-facebook bx-flashing'></i></a> </p>
+                <p><a class="sm" href="#contact" rel="noopener noreferrer">Twitter <i
+                            class='bx bxl-twitter bx-flashing'></i></a></p>
+                <p><a class="sm" href="#contact" rel="noopener noreferrer">Instagram <i
+                            class='bx bxl-instagram-alt bx-flashing'></i></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2023 RoyalInn. All Rights Reserved.</p>
+    </div>
+</footer>

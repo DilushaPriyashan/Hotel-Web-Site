@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Zona Pro Light";
+  font-weight: 100;
+  src: url("fonts/ZonaPro-ExtraLight.woff2") format("woff2"),
+    url("fonts/ZonaPro-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Zona Pro Bold";
+  font-weight: bold;
+  src: url("fonts/ZonaPro-Bold.woff2") format("woff2"),
+    url("fonts/ZonaPro-Bold.woff") format("woff");
+}
+
+:root {
+  --main-font-bold: "Zona Pro Bold", sans-serif;
+  --main-font-light: "Zona Pro Light", sans-serif;
+  --alt-font: "Montserrat", sans-serif;
+  --light-font: #fff;
+  --dark-font: #201e1e;
+  --light-gray: #eeeeee;
+  --dark-gray: #3c3c3c;
+}
+
+.sec-title{
+    justify-content: center;
+    text-align: center;
+    font-family: var(--main-font-light);
+    font-weight:800;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 100px;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+}
+
+/*______________________ ACCOMEDATION & ENTERTAINING SECTION ____________________________ */
+
+.acc-cont {
+    border:0px solid #201e1e;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.item-1{
+    background-image: url('images/facilities/accomadations/1.jpg');
+    border-radius: 8px;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.item-2{
+    background-image: url('images/facilities/accomadations/4.jpg');
+    border-radius: 8px;
+    background-size: cover;
+    position: relative;
+}
+
+.item-3{
+    background-image: url('images/facilities/accomadations/3.jpg');
+    border-radius: 8px;
+    background-size: cover;
+    position: relative;
+}
+
+.item-4{
+    background-image: url('images/facilities/accomadations/2.jpg');
+    border-radius: 8px;
+    background-size: cover;
+    position: relative;
+}
+
+
+.acc-det-title { 
+    background-color: rgba(15, 15, 15, 0.4); 
+    text-align: center;
+    padding-left: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    color: #eeeeee;
+    border-radius: 8px;
+}
+
+.acc-det-text {
+    
+    padding-left: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 530;
+    font-size: 16px;
+    line-height: 20px;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+}
+
+.acc-det-l { 
+    padding-left: 30px;
+    text-align: flex-start;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.acc-det-li {
+    padding-left: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 530;
+    font-size: 16px;
+    line-height: 20px;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+}
+
+.popup{
+    display: none;
+    position: absolute;
+    padding-top: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); 
+    z-index: 1;
+    border-radius: 8px;
+}
+
+
+/*______________________ Dining & OTHER SECTIONS ____________________________ */
+
+.din-cont {
+    border:0px solid #201e1e;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.din-item-1{
+    background-image: url('images/facilities/accomadations/1.jpg');
+    border-radius: 8px;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.din-item-2{
+    background-image: url('images/facilities/accomadations/4.jpg');
+    border-radius: 8px;
+    background-size: cover;
+    position: relative;
+}
+

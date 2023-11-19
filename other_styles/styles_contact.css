@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Zona Pro Light";
+  font-weight: 100;
+  src: url("fonts/ZonaPro-ExtraLight.woff2") format("woff2"),
+    url("fonts/ZonaPro-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Zona Pro Bold";
+  font-weight: bold;
+  src: url("fonts/ZonaPro-Bold.woff2") format("woff2"),
+    url("fonts/ZonaPro-Bold.woff") format("woff");
+}
+
+:root {
+  --main-font-bold: "Zona Pro Bold", sans-serif;
+  --main-font-light: "Zona Pro Light", sans-serif;
+  --alt-font: "Montserrat", sans-serif;
+  --light-font: #fff;
+  --dark-font: #201e1e;
+  --light-gray: #eeeeee;
+  --dark-gray: #3c3c3c;
+}
+
+.contact-cont {
+    height: 570px;
+    border: 0px solid #201e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.con-form {
+    width: 500px;
+    height: auto; /* Adjust the height as needed */
+    border: 0px solid #201e1e;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f5f5f0; /* Set a light background color */
+    border-radius: 10px; /* Add rounded corners for a modern look */
+}
+
+.con-form:hover{
+    box-shadow: 0 8px 16px rgba(13, 13, 14, 0.4);
+}
+
+
+
+.con-label {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-weight: bold; /* Make labels bold for better readability */
+}
+
+input, textarea {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #111111;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #353535;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+ 
+}
+
+.footer-c {
+    color: #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.footer-container {
+    border:0px solid #ccc;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin: 0 auto;
+    text-align: flex-start;
+}
+
+.footer-topic{
+    color: #ccc;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contact-details {
+    border: 2px solid#eeeeee;
+    flex: 5;
+    padding: 0 20px;
+    margin-left: 40px;
+}
+
+.social-media {
+    text-align: center;
+    border: 2px solid#eeeeee;
+    flex: 3;
+    padding: 0 20px;
+    margin-left: 40px;
+}
+
+.copyright {
+    color: #ccc;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sm{
+    color: #ccc;
+}

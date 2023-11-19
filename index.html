@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Box Icons -->
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+
+    <!-- Css & Fontawesome -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="other_styles/styles_about.css">
+    <link rel="stylesheet" href="other_styles/styles_facilities.css">
+    <link rel="stylesheet" href="other_styles/styles_contact.css">
+    <link rel="stylesheet" href="other_styles/styles_gallery.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!-- Js Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    
+    <!-- Code for Daterangepicker -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <title>Royal Inn Kandy</title>
+</head>
+
+<body>
+    <div id="wrapper">
+
+
+        <header class="mobile-header">
+            <div>
+
+                <div id="mobile-menu-icon">
+                    <div class="hamburger-icon">
+                        <input type="checkbox" class="toggle" onclick="hamMenu()">
+                        <div></div>
+                    </div>
+                </div>
+                <div id="logo">
+                    <a href="index.html"><img src="images/my/logo.jpg" alt="logo" width="115px" height="110px"></a>
+                </div>
+
+      
+                <nav id="main-menu-wrapper" class="mobile-menu">
+                    <ul class="main-menu">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About </a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#gallery">Photo Gallery</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!------------------------------------------------- Home ----------------------------------------------------->
+        <section id="slider">
+            <div class="slides">
+                <div class="slide active" id="fix">
+                    <div>
+                        <div class="sl-img" style="background: url(images/my/main.jpg)no-repeat center center/cover;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sl-content">
+                    <div class="content-inner">
+                        <h1 class="sl-text">
+                            <img class="R-image" src="images/my/R.png" alt="R">OYAL INN KANDY
+                        </h1>
+                    </div> 
+                </div>        
+            </div>
+
+        </section>
+
+        <!----------------------------------------- About section--------------------------------------------------------->
+
+        <section id="about">
+            <h1 class="sec-title">About Us</h1>
+            <div class="about-cont">
+
+                <div class="cont-1">
+                    <img class="about-img" src="images/my/about.jpg" alt="About image">
+                </div>
+
+                <div class="cont-2">
+                    <div class="about-text">
+                        <div class="about-text-br">
+                            Welcome to Royal Inn Kandy, where opulent luxury harmonizes with unparalleled comfort, and
+                            exceptional service eagerly awaits your arrival. Our website has been meticulously crafted
+                            to offer you an immersive experience, unveiling the splendor of our distinguished amenities,
+                            sophisticated accommodations, and unwavering commitment to hospitality. Embark on a virtual
+                            exploration of our site, where we showcase the distinctive features and seamless
+                            functionalities that simplify the process of planning your unforgettable stay in the heart
+                            of Kandy, Sri Lanka.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!---------------------------------------------- Facilities section------------------------------------------------>
+
+        <section id="facilities">
+            <div>
+                <div class="sec-title">Facilities</div>
+                <div class="fac-cont">
+                    <a href="facilities.html#" class="grid-item">
+                        <div class="fac-img" style="background-image: url('images/facilities/accomadations/acc.jpg');"></div>
+                        <div class="fac-details">
+                            <div class="fac-det-title">ACCOMODATIONS</div>
+                            <div class="fac-det-text">
+                                Indulge in the pinnacle of refinement with our luxury accommodations. Each room is a masterpiece of design, marrying modern elegance with timeless opulence.
+                                <div class="click-text">Click for More</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="facilities.html#din" class="grid-item">
+                        <div class="fac-img" style="background-image: url('images/facilities/dining/din.jpg');"></div>
+                        <div class="fac-details">
+                            <div class="fac-det-title">DINING</div>
+                            <div class="fac-det-text">
+                                Savor exquisite culinary delights in our dining haven. Immerse yourself in a symphony of flavors, artfully crafted to elevate your dining experience at our hotel.
+                                <div class="click-text">Click for More</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="facilities.html#gym" class="grid-item">
+                        <div class="fac-img" style="background-image: url('images/facilities/gymnasium/gym.jpg');"></div>
+                        <div class="fac-details">
+                            <div class="fac-det-title">GYMNATIUM</div>
+                            <div class="fac-det-text">
+                                Experience a world of wellness at our luxury hotel gym. Unwind in a sophisticated fitness haven, blending cutting-edge equipment with an opulent atmosphere for your ultimate well-being.
+                                <div class="click-text">Click for More</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="facilities.html#swm" class="grid-item">
+                        <div class="fac-img" style="background-image: url('images/facilities/swimmingpool/swim.jpg');"></div>
+                        <div class="fac-details">
+                            <div class="fac-det-title">SWIMMINGPOOL</div>
+                            <div class="fac-det-text">
+                                Dive into luxury at our pool oasis. Enjoy a serene retreat surrounded by sophistication, where our inviting waters complement the opulent atmosphere for a refreshing escape.
+                                <div class="click-text">Click for More</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="facilities.html#ent" class="grid-item">
+                        <div class="fac-img" style="background-image: url('images/facilities/entertaining/ent.jpg');"></div>
+                        <div class="fac-details">
+                            <div class="fac-det-title">ENTERTAINING</div>
+                            <div class="fac-det-text">
+                                Embark on a journey of entertainment at our luxurious haven. Discover captivating performances, chic lounges, and vibrant nightlife, creating unforgettable moments throughout your stay.
+                                <div class="click-text">Click for More</div>
+                            </div>                        
+                        </div>
+                    </a>
+
+                    <a href="facilities.html#ser" class="grid-item">
+                        <div class="fac-img" style="background-image: url('images/facilities/services/ser.jpg');"></div>
+                        <div class="fac-details">
+                            <div class="fac-det-title">SERVICES</div>
+                            <div class="fac-det-text">
+                                Embrace unparalleled services at our luxury hotel. From personalized concierge assistance to meticulous housekeeping, we ensure every aspect of your stay reflects excellence.
+                                <div class="click-text">Click for More</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+
+        <!---------------------------------------- Gallery section--------------------------------------------------------->
+        </section>
+
+        <section id="gallery">
+            <div>
+                <div class="sec-title" style="padding-top: 40px;">Gallery</div>
+
+                <div class="gallery-cont">
+                    <div class="gallery-item"><img src="images/gallery/1.jpg" alt="Image 1"></div>
+                    <div class="gallery-item"><img src="images/gallery/2.jpg" alt="Image 2"></div>
+                    <div class="gallery-item"><img src="images/gallery/3.jpg" alt="Image 3"></div>
+                    <div class="gallery-item"><img src="images/gallery/4.jpg" alt="Image 4"></div>
+                    <div class="gallery-item"><img src="images/gallery/5.jpg" alt="Image 5"></div>
+                    <div class="gallery-item"><img src="images/gallery/6.jpg" alt="Image 5"></div>
+                    <div class="gallery-item"><img src="images/gallery/7.jpg" alt="Image 5"></div>
+                    <div class="gallery-item"><img src="images/gallery/8.jpg" alt="Image 5"></div>
+                    <div class="gallery-item"><img src="images/gallery/9.jpg" alt="Image 5"></div>
+                    <div class="gallery-item"><img src="images/gallery/10.jpg" alt="Image 5"></div>
+                    <div class="gallery-item"><img src="images/gallery/11.jpg" alt="Image 5"></div>
+                    <div class="gallery-item"><img src="images/gallery/12.jpg" alt="Image 5"></div>
+
+                </div>
+            </div>
+        </section>
+
+         <!---------------------------------------- Contact section--------------------------------------------------------->
+
+        <section id="contact">
+            <div>
+                <div class="sec-title">Contact US</div>
+
+                <div class="contact-cont">
+                    <form class="con-form" action="/submit_contact_form" method="post">
+                        <label class="con-label" for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter name" required>
+                
+                        <label class="con-label" for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter email" required>
+                
+                        <label class="con-label" for="address">Address:</label>
+                        <input type="text" id="address" placeholder="Enter address" name="address">
+                
+                        <label class="con-label" for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter your message here" required></textarea>
+                
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<footer class="footer">
+    <div class="footer-c">
+        <div class="footer-image">
+            <img class="R-image" src="images/my/R.png" alt="R">
+        </div>
+        <div class="footer-container">
+            <div class="contact-details">
+                <div class="footer-topic">Contact Us</div>
+                <p>Email: RoyalInn@gmail.com</p>
+                <p>Hotline: +947 456 789</p>
+                <p>Address: 23 / 123 Street, Kandy, Sri Lanka</p>
+            </div>
+            <div class="social-media">
+                <div class="footer-topic">Follow Us</div>
+                <p ><a class="sm" href="#contact"  rel="noopener noreferrer">Facebook  <i class='bx bxl-facebook bx-flashing' ></i></a> </p>
+                <p ><a class="sm" href="#contact"  rel="noopener noreferrer">Twitter  <i class='bx bxl-twitter bx-flashing' ></i></a></p>
+                <p ><a class="sm" href="#contact"  rel="noopener noreferrer">Instagram  <i class='bx bxl-instagram-alt bx-flashing' ></i></a></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <p>&copy; 2023 RoyalInn. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Zona Pro Light";
+  font-weight: 100;
+  src: url("fonts/ZonaPro-ExtraLight.woff2") format("woff2"),
+    url("fonts/ZonaPro-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Zona Pro Bold";
+  font-weight: bold;
+  src: url("fonts/ZonaPro-Bold.woff2") format("woff2"),
+    url("fonts/ZonaPro-Bold.woff") format("woff");
+}
+
+:root {
+  --main-font-bold: "Zona Pro Bold", sans-serif;
+  --main-font-light: "Zona Pro Light", sans-serif;
+  --alt-font: "Montserrat", sans-serif;
+  --light-font: #fff;
+  --dark-font: #201e1e;
+  --light-gray: #eeeeee;
+  --dark-gray: #3c3c3c;
+}
+
+
+.gallery-cont{
+    border: 0px solid #201e1e;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 10px;
+}
+
+.gallery-item:hover {
+    transform: scale(1.4);
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
